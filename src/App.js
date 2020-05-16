@@ -8,11 +8,7 @@ class App extends Component {
   state = {employeelist: employeelist,
     username: ""
   };
-
-  changeUserName = (username) => {
-
-
-    this.setState({ username: username });
+  changeUserName = (username) => {this.setState({ username: username });
     console.log(this.state)
   }
 
@@ -21,6 +17,7 @@ class App extends Component {
     return (
 
       <div>
+        
         <InputData
           handleSubmit={this.changeUserName}/>
         
