@@ -7,7 +7,7 @@ function Directory(props) {
     
     <tbody>
       <tr>
-      <td>{props.img}</td>
+      <td><img src={props.img}></img></td>
         <th scope="row">{props.name}</th>
         <td>{props.position}</td>
         <td>{props.mobile}</td>
